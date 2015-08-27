@@ -156,6 +156,13 @@ button:hover {
 	background: #1f1f1f;
 }
 
+.buttonhint {
+	font-size: 13px;
+	line-height: 20px;
+	float: right;
+	width: 300px;
+}
+
 .demolink {
 	background-color: #fff;
 	color: #ec0000;
@@ -276,30 +283,31 @@ section.first {
 .odd .featureimage {
 	float: right;
 }
+
 .featuresection {
 	background-color: #f0f0f0;
 }
 
 .featuresection .text {
 	position: relative;
-	width: 600px;
-	margin: auto;
-	text-align: center;
+	width: 800px;
+	margin: 0;
+	text-align: left;
 }
 
 .featuresection .blurb {
-	width: 490px;
-	margin: 0 auto 30px auto;
+	width: 800px;
+	/*margin: 0 auto 30px auto;*/
 }
 
 .featurecontainer {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 }
 
 .feature {
-	width: 43%;
+	width: 45%;
 	position: relative;
-	padding-left: 40px;
+	padding-left: 30px;
 	text-align: left;
 	float: left;
 }
@@ -319,20 +327,32 @@ section.first {
 }
 
 .releasehistory {
-	padding-left: 40px;
+	padding-left: 30px;
 	margin-top: 20px;
 	float: left;
 }
+
+/*.feature:after {
+	content: '';
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	border: 1px solid #ddd;
+	position: absolute;
+	left: 0;
+	top:0;
+}*/
 
 .feature:before {
 	content: url('img/tick.png');
     position: absolute;
     top: 10px;
-    left: 12px;
+    left: 0;
 }
 
 .iphone {
-	margin-left: -30px;
+	margin-left: 130px;
 }
 
 footer {
@@ -352,7 +372,7 @@ footer {
 }
 
 .contactform {
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .login-footer ul {
